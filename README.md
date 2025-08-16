@@ -27,6 +27,5 @@ covering core concepts and problem-solving skills. It is created for **practice,
 - STL (C++)  
 - Collections (Java)  
 
-![Programming Banner](https://i.ibb.co/1vLhTjN/programming-banner.jpg)
 
 
