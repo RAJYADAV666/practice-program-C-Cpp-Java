@@ -5,5 +5,39 @@ covering core concepts and problem-solving skills. It is created for **practice,
 
 ---
 
-## 📁 Repository Structure  
+## ✅ Program Count  
+- **C** → ~150+ Programs  
+- **C++** → ~150+ Programs  
+- **Java** → ~200+ Programs  
+- **Total** → **500+ Programs**  
+
+---
+
+## 📚 Topics Covered  
+- Arrays & Strings  
+- Pointers & Memory Management  
+- Recursion  
+- File Handling  
+- Object-Oriented Programming (OOP)  
+- Exception Handling  
+- Multithreading  
+- STL (C++)  
+- Collections (Java)  
+
+---
+
+## ▶️ How to Run  
+
+### C  
+```bash
+gcc program.c -o program
+./program
+
+### C++  
+g++ program.cpp -o program
+./program
+
+### JAVA
+javac Program.java
+java Program
 
