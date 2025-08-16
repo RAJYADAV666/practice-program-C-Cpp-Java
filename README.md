@@ -26,16 +26,6 @@ covering core concepts and problem-solving skills. It is created for **practice,
 
 ---
 
-## ▶️ How to Run  
-
-### C  
-```bash
-gcc program.c -o program
-./program
-
-### C++  
-g++ program.cpp -o program
-./program
 
 ### JAVA
 javac Program.java
