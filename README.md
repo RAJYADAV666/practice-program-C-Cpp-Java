@@ -1,6 +1,6 @@
 <!-- Banner -->
 <p align="center">
-  <img src="assets/banner.png" alt="Raj Yadav Banner"/>
+  <img src="assets/Banner.png" alt="Raj Yadav Banner"/>
 </p>
 
 <!-- Heading -->
@@ -11,17 +11,6 @@ This repository contains <b>500+ practice programs</b> written in <b>C, C++ and 
 covering core concepts and problem-solving skills.  
 It is created for <i>practice, learning, and interview preparation</i>.
 </p>
-
----
-
-## ✅ Program Count  
-
-| Language | Programs |
-|----------|----------|
-| C        | ~150     |
-| C++      | ~150     |
-| Java     | ~200+    |
-| **Total**| **500+** |
 
 ---
 
