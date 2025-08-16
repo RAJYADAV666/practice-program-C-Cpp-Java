@@ -40,7 +40,7 @@ It is created for <i>practice, learning, and interview preparation</i>.
 
 <p align="center">
 📧 rajyadavofficial11@gmail.com <br/>
-📱 +91 7745006259  
+📱 +91 7745002647  
 </p>
 
 ---
