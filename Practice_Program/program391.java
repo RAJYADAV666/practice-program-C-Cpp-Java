@@ -1,0 +1,113 @@
+class node
+{
+    public int data;
+    public node next;
+ 
+   public node(int no)
+    {
+        data=no;
+        next=null;
+    }
+}
+class SinglyLL
+{
+    private node first; // techer chya dokyatil value 
+    private int Count;
+
+    public SinglyLL()
+    {
+        first = null;
+        Count = 0; 
+    }
+
+    public void Insertfirst(int no)
+    {
+        node newn = new node(no);
+
+        if(first == null)
+        {
+            first = newn;
+        }
+        else
+        {
+            newn.next=first;
+            first = newn;
+
+        }
+         Count++;
+    }
+    public void InsertLast(int no)
+    {
+        node newn = new node(no);
+
+        if(first == null)
+        {
+            first = newn;
+            
+        }
+        else
+        {
+           node temp = first;
+
+           while(temp.next !=null)
+           {
+            temp = temp.next;
+           }
+
+           temp.next = newn;
+        }
+        Count++;
+
+    }
+    public void InsertAtpos(int no,int ipos){}
+    public void Deletefirst(){}
+    public void DeleteLast(){}
+    public void DeleteAtpos(){}
+    public void Display()
+    {
+        node temp = first;
+
+        System.out.println("The LinkedList Element are");
+        while(temp !=null)
+        {
+            System.out.print("|"+temp.data+"|->");
+            temp = temp.next;
+        }
+        System.out.println("null");
+    }
+
+    public int Count()
+    {
+        return Count;
+    }
+    
+
+}
+class program391
+{
+    public static void main(String arg[])
+    {
+        int iRet =0;
+
+        SinglyLL obj = new SinglyLL();
+
+        obj.Insertfirst(51);
+        obj.Insertfirst(21);
+        obj.Insertfirst(11);
+
+        obj.Display();
+        iRet = obj.Count();
+        System.out.println("The Number of elements are"+iRet);
+
+
+        obj.InsertLast(61);
+        obj.InsertLast(71);
+        obj.InsertLast(81);
+
+        obj.Display();
+        iRet = obj.Count();
+        System.out.println("The Number of elements are"+iRet);
+
+        
+    }
+}
